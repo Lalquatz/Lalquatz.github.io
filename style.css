@@ -10,6 +10,7 @@ li{
 body{
     background-color: #3A5A40; 
     font-family: 'lucida console', Monospace;
+    text-align: center;
 }
 
 a{
@@ -19,4 +20,18 @@ a{
 a:hover{
     color: #f07167;
 }
-/* 3A5A40 2D6A4F 40916C 588157 */
+.galeria img{
+    width: 300px;
+}
+.galeria-img{
+    
+}
+.galeria{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* 3A5A40 2D6A4F 40916C 588157 */ 
