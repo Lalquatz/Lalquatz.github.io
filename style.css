@@ -23,9 +23,6 @@ a:hover{
 .galeria img{
     width: 300px;
 }
-.galeria-img{
-    
-}
 .galeria{
     display: flex;
     flex-flow: row wrap;
@@ -33,5 +30,6 @@ a:hover{
     justify-content: center;
     gap: 10px;
 }
+
 
 /* 3A5A40 2D6A4F 40916C 588157 */ 
