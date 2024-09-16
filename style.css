@@ -20,16 +20,20 @@ a{
 a:hover{
     color: #f07167;
 }
-.galeria img{
-    width: 300px;
+.contatos img{
+    height: 100px;
+    border-radius: 50px;
+    transition: transform 0.2s;
+    padding: 20px;
 }
-.galeria{
+.contatos img:hover{
+    transform: scale(1.05);
+}
+.contatos{
     display: flex;
-    flex-flow: row wrap;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
 }
+
 
 
 /* 3A5A40 2D6A4F 40916C 588157 */ 
